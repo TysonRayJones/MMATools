@@ -17,10 +17,10 @@ For example, denoting the target qubit as a subscript (which we here underline)
 ```
 
 Gates can be linearly combined:
-![example of linear combination](examples/eg0.png)
+![example of linear combination](https://raw.githubusercontent.com/TysonRayJones/MMATools/master/unitary_builder/examples/eg0.png)
 
 Bras and kets can be intermixed, where `Ket[3]` indicates the *fourth* computational basis state (`11` in binary):
-![example of kets and inner product](examples/eg0.png)
+![example of kets and inner product](https://raw.githubusercontent.com/TysonRayJones/MMATools/master/unitary_builder/examples/eg1.png)
 
 The number of qubits in the system is assumed to be the largest indexed in the expression.
 E.g. `H_0 Y_5` returns a 6 qubit (2^6 by 2^6) matrix.
